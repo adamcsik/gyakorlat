@@ -1,0 +1,3 @@
+import regisztracio
+
+regisztracio.felhasznalo()

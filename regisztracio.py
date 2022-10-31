@@ -22,7 +22,7 @@ def kisbetu(jelszo):
 
 def hossz(jelszo):
     hiba = False
-    if len(jelszo) <8:
+    if len(jelszo) < 8:
         print('Túl rövid a jelszó (min 8 karakter)!')
         hiba = True
     return hiba
@@ -40,18 +40,19 @@ def szamjegy(jelszo):
 
 
 def jelszo_ellenorzese():
+    psw = ''
     hibakod = 1
     while hibakod != 0:
         hibakod = 0
         psw = input('Kérek egy jelszót: ')
         if hossz(psw):
-            hibakod +=1
+            hibakod += 1
         if szamjegy(psw):
-            hibakod +=1
+            hibakod += 1
         if nagybetu(psw):
-            hibakod +=1
+            hibakod += 1
         if kisbetu(psw):
-            hibakod +=1
+            hibakod += 1
     print('\nMegfelelő jelszót adott meg!')
     return psw
 
@@ -113,7 +114,7 @@ def beleptetes():
         print("Nincs ilyen felhasználó!")
 
 # Innen indul a program
-# felhasznalo()
-# jelszokeres()
-# beleptetes()
-
+if __name__ == '__main__':
+    felhasznalo()
+    jelszokeres()
+    beleptetes()

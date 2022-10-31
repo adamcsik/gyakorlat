@@ -1,4 +1,6 @@
 
 adamcsik@uniduna.hu;123456Qwer
 adamcsik@gm.com;123456Qwer
-janos@adamcsik.hu
+janos@adamcsik.hu; 13ljTunsdf
+valaki@gm.hu; 134Ztnlkl
+senki@gmail.com; 12346Rttu

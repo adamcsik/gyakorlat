@@ -114,7 +114,8 @@ def beleptetes():
         print("Nincs ilyen felhasználó!")
 
 # Innen indul a program
-if __name__ == '__main__':
-    felhasznalo()
-    jelszokeres()
-    beleptetes()
+print(__name__)
+
+felhasznalo()
+jelszokeres()
+beleptetes()

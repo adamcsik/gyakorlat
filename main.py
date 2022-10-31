@@ -1,3 +1,3 @@
-import regisztracio
+from regisztracio import *
 
-regisztracio.felhasznalo()
+felhasznalo()

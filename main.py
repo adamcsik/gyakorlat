@@ -1,3 +1,4 @@
 from regisztracio import *
-
-felhasznalo()
+import jelszo
+jelszo_ellenorzese()
+jelszo.jelszo_ellenorzese(8, False)

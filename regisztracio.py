@@ -115,7 +115,7 @@ def beleptetes():
 
 # Innen indul a program
 print(__name__)
-
-felhasznalo()
-jelszokeres()
-beleptetes()
+if __name__ == '__main__':
+    felhasznalo()
+    jelszokeres()
+    beleptetes()
